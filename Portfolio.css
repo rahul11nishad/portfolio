@@ -1,0 +1,191 @@
+body
+{
+    font-family: 'Open Sans', sans-serif;
+    padding:0px;
+    margin: 0px;
+}
+#navbar
+{
+    background-color: crimson;
+    position: sticky;
+    
+    top: 0px;
+    height: 77px;
+    text-align: right;
+}
+#navbar a
+{
+    padding: 20px;
+    margin:auto;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    color: ghostwhite;
+}
+ #navbar a:hover
+{
+    background-color: indigo;
+}
+@media (max-width:800px) {
+    #navbar
+{
+    background-color: crimson;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    height: 77px;
+    text-align: right;
+}
+}
+#welcome-section
+{
+    color:crimson ;
+    background-color: rgba(30, 34, 37, 0.89);
+    text-align: center;
+    height: 800px;;
+    flex-direction: column;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+#welcome-section p
+{
+    font-size: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+#welcome-section h1
+{
+    font-size: 60px;
+    margin: 0px;
+    padding: 0px;
+}
+#projects
+{
+    margin-top: -50px;
+    padding: 0px;
+    background-color: rgb(198, 255, 227);
+
+}
+.div-grid
+{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns:400px 400px 400px;
+    grid-template-rows: 500px 500px;
+}
+@media (max-width:1000px) {
+   .div-grid
+{
+    justify-content: space-around;
+    display: grid;
+    grid-template-columns:400px 400px;
+    grid-template-rows: 500px 500px 500px;
+} 
+#navbar
+{
+    background-color: crimson;
+    position: sticky;
+    display: flex;
+    flex-direction: row;
+    top: 0px;
+    height: 77px;
+    text-align: right;
+}
+}
+a p
+{
+    margin-top: -5px;
+    background-color: rgb(36, 42, 44);
+    padding: 20px;
+    font-size: 25px;
+    color: rgb(238, 236, 236);
+    text-align: center;
+}
+a
+{
+    text-decoration: none;
+}
+a img
+{
+    width: 400px;
+    height:400px;
+}
+.projects-title
+{
+    color: gainsboro;
+}
+span
+{
+    font-weight: bold;
+    font-size: 28px;
+    color: rgb(248, 133, 25);
+}
+span:hover
+{
+    color: rgb(248, 133, 25);
+}
+button:hover
+{
+    background-color: rgb(233, 31, 71);
+    color: lavender;
+}
+
+#contact
+{
+    background-color: darkslategray;
+}
+#contact h1
+{
+    color: floralwhite;
+    text-align: center;
+    font-size: 80px;
+    padding: 50px;
+    margin: 0px;
+}
+.contact-link
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.contact-link a
+{
+    color: ghostwhite;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact-link a:hover
+{
+    padding-top:10px;
+    transition-duration: .5s;
+    transition-timing-function: ease-in-out;
+}
+@media (max-width:800px) {
+    .div-grid{
+         justify-content: space-around;
+    display: grid;
+    grid-template-columns:400px;
+    grid-template-rows: 500px;
+    }
+    a img
+{
+    width: 400px;
+    height:400px;
+}
+.contact-link a
+{
+    color: ghostwhite;
+    text-align: center;
+    text-decoration: none;
+    font-size: 20px;
+}
+.contact-link
+{
+    display: flex;
+    /* flex-direction: row; */
+    justify-content:space-evenly;
+}
+}
